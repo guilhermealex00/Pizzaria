@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+.cabecalho > img{
+height: 60px;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.menu{
+    display: flex;
+}
+.menu > li{
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+.menu > li:hover{
+    background-color: darkred;
+}
+.menu > li > a {
+color: white;
+text-decoration: none;
+text-shadow: 2px 2px black;
+padding-left: 10px;
+padding-right: 10px;
+font-weight: 400;
+}
+.principal{
+    background-image: url(../img/pizza.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    flex-direction: column;
+    text-shadow: 2px  black;
+    box-shadow: 0px 3px 10px green;
+}
+.botao{
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.meio{
+    max-width: 1300px;
+    margin: 0% auto;
+    text-align: center;
+
+}
+.acima-do-hr{
+    color: green;
+}
+.agaerre{
+    background-color: red; 
+    height: 3px;
+    border: 10px;
+}
+.sabor{
+    background-color: green;
+    margin: 10px;
+    border-radius: 8px 8px 8px; 
+}
+.sabores{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.preço{
+     
+    background-color: yellow;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+    color: black;
+    border: 10px solid yellow;
+
+}
+.produto{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.promo{
+    color: green;
+    text-align: center;
+}
+.augaerre{
+    background-color:  red;
+}
