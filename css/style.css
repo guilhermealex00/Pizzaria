@@ -16,7 +16,7 @@ body{
 }
 .menu{
     display: flex;
-}
+}   
 .menu > li{
     height: 60px;
     display: flex;
